@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [honnest food Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Honest food ad to cart test(failed)">
+    <classes>
+      <class name="com.appname.qa.testCases.AddToCartTest">
+        <methods>
+          <include name="validateAddToCartOperation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.appname.qa.testCases.AddToCartTest -->
+    </classes>
+  </test> <!-- Honest food ad to cart test(failed) -->
+</suite> <!-- Failed suite [honnest food Test Automation Test Suite] -->
